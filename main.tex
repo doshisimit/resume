@@ -1,0 +1,305 @@
+%-------------------------
+% Resume in Latex
+% Author : Simit Doshi (original: Jake Gutierrez)
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt, ]{article}
+
+\usepackage{multicol}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\usepackage{amssymb}
+\usepackage{xcolor}
+\usepackage[document]{ragged2e}
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[default]{sourcesanspro}
+
+% serif
+\usepackage{CormorantGaramond}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\fancyheadoffset[R]{0pt}
+\fancyhead[R]{March 20, 2023}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+
+% \definecolor{orangish}{HTML}{bd5d38}
+\definecolor{orangish}{HTML}{cc3900}
+\definecolor{orangish}{HTML}{bf3300}
+
+
+\hypersetup{
+    colorlinks=true,     
+    urlcolor=orangish
+}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item[\bullet]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSilentItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeResultItem}[1]{
+  \item[\checkmark]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeImpactItem}[1]{
+  \item[\bigstar]\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[4]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\      
+      \textit{\small#3} & \textit{\small #4}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=10pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\newcommand{\resumeItemSilentListStart}{\vspace{-4pt} \begin{itemize}[label = {}]}
+\newcommand{\resumeItemSilentListEnd}{\end{itemize}\vspace{-7pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Simit Doshi} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +44 7466866912 ~ \raisebox{-0.2\height}\faEnvelope\  \href{mailto:simitshah18@gmail.com}{  \underline{simitshah18@gmail.com}} ~ 
+    \raisebox{-0.2\height}\faLinkedin\ \href{https://www.linkedin.com/in/doshisimit}{
+    \underline{www.linkedin.com/in/doshisimit}}  ~
+    \raisebox{-0.2\height}\faGithub\ 
+    \href{https://github.com/doshisimit}{ \underline{github.com/doshisimit}} 
+    ~
+    \raisebox{-0.2\height}\faGlobe\  \href{https://simitdoshi.com}{\underline{simitdoshi.com}}
+    \vspace{-8pt}
+    
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.hertss.ac.uk/}{University of Hertfordshire}}{October 2020 -- October 2022}
+      {Master of Science (Data Science and Analytics)}{Hatfield, Hertfordshire, United Kingdom}
+\vspace{-2pt}  
+ \resumeSubheading
+      {\href{https://www.adit.ac.in/}{A. D. Patel Institute of Technology, Gujarat Technological University}}{August 2015 -- June 2019}
+      {Bachelor of Engineering (Computer Engineering)}{Vallabh Vidyanagar, Gujarat, India}
+ \vspace{-1pt}  
+
+  
+    \resumeSubHeadingListEnd
+% \vspace{-5pt}  
+   
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    
+    \resumeSubheading
+      {\href{https://www.tcs.com/}{Tata Consultancy Services Limited}}{January 2019 -- August 2020}
+      {Assistant Systems Engineer - Full Stack Java Developer}{Mumbai, Maharashtra, India}
+      \resumeItemListStart
+        \resumeItem{Designed, Developed and Maintained \textbf{J2EE web application for} a global credit score calculating company (US Region); Alongside developed API for corporate consumer}
+        \resumeItem{Worked as a full stack java developer in an \textbf{Agile} Environment}
+        \resumeItem{Played a major role for transforming legacy system to GCP cloud}
+        
+        \resumeResultItem{Was usually responsible for proposing a new idea, creating and deploying microservices, enhancing legacy system, maximizing code reachability using unit testing, assisting Devops on building new \href{https://en.wikipedia.org/wiki/CI/CD}{CICD pipelines}, assisted with production deployment; \textbf{Completed over 100 microservices in a year}}
+        
+      \resumeItemListEnd
+    \resumeSubheading
+        {\href{https://www.evosysglobal.com/}{Evosys Global}}{December 2018 - April 2019}
+        {Associate Consultant Intern - Fusion Developer}{Ahmedabad, Gujarat, India}
+            \resumeItemListStart
+                \resumeItem{Migrated Banks from on \- premise CRM to Oracle Fusion CRM}
+                \resumeItem{Built Fusion application that extends the power of Fusion CRM with additional functionality catering to clients needs}
+
+                \resumeResultItem{Was sole responsible for whole development lifecycle of each project; \textbf{completed 3 projects in a short span of time}}
+    
+  \resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills \null \hfill {\normalfont \textit{* indicates working-knowledge}} }
+
+\begin{multicols}{2}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+        \textbf{Programming}{: Java 11, Python 3, C++/C}  \\
+        \textbf{Database}{: SQL, MongoDB, PostgreSQL*, MySQL, Redis} \\
+        \textbf{Libraries}{: Maven, JUnit 5, Mokito, Spring, Ant} \\
+        \textbf{Industrial Knowledge}{: Finance, Data Science, Digital Marketing}
+        \textbf{OS/Server}{: Linux, Apache, CentOS, Windows, Mac}\\
+        \columnbreak
+      
+        \textbf{Web front-end}{: HTML5, CSS3, Bootstrap, JavaScript, Typescript*, GWT, ReactJS*} \\
+        \textbf{Web back-end}{: Python Flask, NodeJS, PHP} \\
+        \textbf{Internet of Things}{: Arduino, Raspberry Pi} \\
+        \textbf{Cloud/DevOps*}{: git, AWS, GCP, Azure, Docker, Jenkins, Rundeck, Datadog}} \\
+    }
+ \end{itemize}
+\end{multicols}
+% \vspace{-5pt}
+% \center{* \textit{indicates working-knowledge}}
+\vspace{-10pt}
+%-----------PROJECTS-----------
+\section{Projects}
+    \begin{justify}
+
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+          {\textbf{Karaoke} $|$ \emph{Android Application}}{}{}{}
+          \vspace{-20pt}
+          \resumeItemListStart
+            
+            \resumeItem{Built a native android application for entertainment where users can sing and publish their own songs as well interact with other users by liking and leaving comments. }
+            \resumeResultItem{\textbf{Tech Stack:} Java (Android), LAMP stack}
+          \resumeItemListEnd 
+        
+
+
+        \resumeProjectHeading
+          {\textbf{SubmiFast} $|$ \emph{Web Application}} {}{}{}
+          \vspace{-20pt}
+          \resumeItemListStart
+            \resumeItem{Built a \textbf{web based solution to assist university} for managing assignments, making grades for students.}
+            \resumeItem{For students to perform coding practicals online without going through hassle of setting up working environment saving time and focusing more on learning. }
+            
+            \resumeResultItem{\textbf{Tech Stack:}{ MongoDB, NodeJs, React}}
+            \resumeItemListEnd
+
+
+        \resumeProjectHeading
+        {\textbf{Non Fungible Token Price Prediction} $|$ \emph{Deep Learning - Time Series Analysis}}{}{}{}        
+          \vspace{-20pt}
+        \resumeItemListStart
+            \resumeItem{Built a neural network using ARIMA model for analysing price changes of a NFT collection based on previous values.}
+            
+            \resumeResultItem{\textbf{Tech Stack:}{ Selenium (Data Scraping), matplotlib, seaborn, tableau (Visualisation), scikit-learn (Machine Learning), TensorFlow(1.x) + Keras (Deep Learning) }}
+            \resumeItemListEnd
+
+
+   
+        \resumeSubHeadingListEnd
+    \end{justify}
+
+\vspace{-10pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Surat Startups}{ \textit{Core Committee Member \& Team Lead}}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeItem{Organised multiple events along side team to create a startup eco$-$system in the town. Empowered small business to grow and connect with mentors in their domain}
+            \resumeItem{Organised events like \textbf{Marketing Hunt, Startupweekend by google for entrepreneurs, etc.}}
+            \resumeResultItem{\textbf{Was directly responsible for conducting 4 events with  $\approx1000$ participants}}
+        \resumeItemListEnd
+    % \vspace{-10pt}
+    \resumeSubheading{National Android Development Championship (NADC)}{}{}{}
+    \vspace{-15pt}
+        \resumeItemListStart
+            \resumeResultItem{\textbf{Achieved 3rd position} for national level championship held in 2016 with more than \textbf{50 University students} took part in}
+        \resumeItemListEnd
+
+  
+    \resumeSubHeadingListEnd
+
+
+\end{document}
